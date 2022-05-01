@@ -1,0 +1,11 @@
+.root {
+    -fx-background-color: #52B9FF;
+}
+
+.gameover {
+    -fx-font-size: 18px;
+}
+
+.score {
+    -fx-text-alignment: center;
+}

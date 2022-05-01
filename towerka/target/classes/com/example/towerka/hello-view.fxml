@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMousePressed="#clickedScreen" prefHeight="600" prefWidth="380.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerka.Controller">
+   <children>
+      <Rectangle fx:id="tower1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" styleClass="tower" width="100.0" />
+      <Rectangle fx:id="tower2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" styleClass="tower" width="100.0" />
+      <Rectangle fx:id="tower3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE" styleClass="tower" width="100.0" />
+      <Label fx:id="score" alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="253.0" prefHeight="30.0" prefWidth="79.0" styleClass="score" text="Score: 0" textAlignment="CENTER" />
+      <Label fx:id="gameover" alignment="CENTER" contentDisplay="CENTER" layoutX="117.0" layoutY="203.0" prefHeight="50.0" prefWidth="147.0" styleClass="gameover" text="Game Over" />
+   </children>
+</AnchorPane>
